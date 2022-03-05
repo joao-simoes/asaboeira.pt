@@ -4,7 +4,9 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view />
+     <vue-page-transition name="overlay-right-full">
+      <router-view />
+    </vue-page-transition>
   </div>
 </template>
 
@@ -28,5 +30,12 @@
       color: #42b983;
     }
   }
+}
+
+.overlay-left,
+.overlay-right,
+.overlay-top,
+.overlay-bottom {
+  background: #888888 !important;
 }
 </style>
