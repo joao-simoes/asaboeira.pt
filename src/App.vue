@@ -3,7 +3,7 @@
     <div class="container">
       <Nav />
     </div>
-    <div>
+    <div class="mt-5 pages">
       <vue-page-transition name="fade">
         <router-view />
       </vue-page-transition>
@@ -33,15 +33,19 @@ $bege: #aa7d6f;
 
 #app {
   font-family: $poppins;
-  font-weight: 200;
+  font-weight: 300;
   transition: 0.2s ease-in-out;
 }
 
 .activeTab {
-  font-weight: 400 !important;
+  font-weight: 600 !important;
   background-color: rgba($color: $verdeClaro, $alpha: 0.2);
   transition: 0.5s ease-in-out;
   border-radius: 10px;
+}
+
+.pages {
+  background-color: rgba(#A1A275, 0.5);
 }
 
 .overlay-left,
