@@ -46,7 +46,6 @@
 </template>
 
 <style scoped>
-
 img {
   border-radius: 15px;
   width: 75%;

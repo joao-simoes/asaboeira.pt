@@ -45,7 +45,7 @@ $bege: #aa7d6f;
 }
 
 .pages {
-  background-color: rgba(#A1A275, 0.5);
+  background-color: rgba(#a1a275, 0.5);
 }
 
 .overlay-left,
