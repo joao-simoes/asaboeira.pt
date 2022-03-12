@@ -11,7 +11,6 @@ export default {
 
 <style lang="scss" scoped>
   .index {
-    background-color: rgba(#A1A275, 0.5);
     min-width: 100%;
     min-height: 100vh;
   }

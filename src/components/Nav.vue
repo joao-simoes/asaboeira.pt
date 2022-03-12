@@ -4,7 +4,7 @@
           <img src="../assets/logo.png" alt="A Saboeira" width="100%" height="auto">
       </div>
       <div class="col-9">
-          <ul class="d-flex justify-content-around align-items-center h-100">
+          <ul class="d-flex justify-content-around align-items-end h-100">
               <li class="p-2" id="home"><router-link to="/">Home</router-link></li>
               <li class="p-2" id="nossoespaco"><router-link to="/nossoespaco">O nosso espaço</router-link></li>
               <li class="p-2" id="alojamento"><router-link to="/">Alojamentos</router-link></li>
