@@ -21,7 +21,7 @@
           <router-link to="/servicos">Serviços</router-link>
         </li>
         <li class="p-2" id="contactos">
-          <router-link to="/">Contactos</router-link>
+          <router-link to="/contactos">Contactos</router-link>
         </li>
       </ul>
     </div>
