@@ -1,8 +1,6 @@
 <template>
   <div>
     <div class="d-flex justify-content-between align-items-end mt-4">
-
-
       <div class="text-start">
         <h5><b>A Saboeira - Turismo Rural</b></h5>
         <p>
@@ -21,18 +19,25 @@
         </p>
       </div>
 
-
       <div class="text-end">
-          <div>
-              <a href="#" target="_blank"><font-awesome-icon icon="fab fa-facebook" size="xl" class="me-2"/></a>
-            <a href="#" target="_blank"><font-awesome-icon icon="fab fa-instagram" size="xl" class="me-2"/></a>
-          </div>
-          
-          <div class="my-3">
-              <a href="#" target="_blank"><img src="../assets/livro_de_reclamacoes.jpeg" alt="Livro de Reclamações" width="40%"></a>
-          </div>
-      </div>
+        <div>
+          <a href="#" target="_blank"
+            ><font-awesome-icon icon="fab fa-facebook" size="xl" class="me-2"
+          /></a>
+          <a href="#" target="_blank"
+            ><font-awesome-icon icon="fab fa-instagram" size="xl" class="me-2"
+          /></a>
+        </div>
 
+        <div class="my-3">
+          <a href="#" target="_blank"
+            ><img
+              src="../assets/livro_de_reclamacoes.jpeg"
+              alt="Livro de Reclamações"
+              width="40%"
+          /></a>
+        </div>
+      </div>
     </div>
 
     <div class="row mt-4 text-center">

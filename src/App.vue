@@ -61,4 +61,8 @@ $bege: #aa7d6f;
 .overlay-bottom {
   background: #888888 !important;
 }
+
+.pages {
+  box-shadow: inset 0px 4px 16px -4px rgba(51, 51, 51, 0.62);
+}
 </style>
