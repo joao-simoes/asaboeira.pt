@@ -84,8 +84,7 @@
         </form>
       </div>
       <div class="row py-4">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3078.976368066847!2d-7.9592187843711635!3d39.49244821925324!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd181a7785efbd9d%3A0x939c2f77edc9c008!2sA%20Saboeira%20-%20Turismo%20Rural!5e0!3m2!1spt-PT!2spt!4v1634390034130!5m2!1spt-PT!2spt"
-        width="900" height="500" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe width="900" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=900&amp;height=500&amp;hl=en&amp;q=Saboeira%20Belver+()&amp;t=k&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> 
       </div>
     </div>
   </div>
