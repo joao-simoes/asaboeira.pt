@@ -78,6 +78,7 @@
             type="submit"
             class="btn"
             style="background-color: #202020; color: white"
+            @click="submit_form"
           >
             Enviar
           </button>
@@ -89,6 +90,18 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  methods: { 
+    submit_form(e) {
+      e.preventDefault();
+  
+      alert("Pedimos desculpa, mas este formulário estará disponível em breve. Por favor, sinta-se à vontade para usar qualquer outro meio de comunicação! :)")
+    }
+  }
+}
+</script>
 
 <style scoped>
 img {
