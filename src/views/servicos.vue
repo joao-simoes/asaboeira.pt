@@ -4,7 +4,7 @@
     <div class="container">
       <div class="py-5" style="position: relative; text-align: left">
         <img src="../assets/img/4.jpg" alt="Serviços #1" />
-        <img class="imgOver" src="../assets/img/5.jpg" alt="Serviços #2" />
+        <img class="imgOver d-none d-md-block" src="../assets/img/5.jpg" alt="Serviços #2" />
       </div>
       <div class="pb-5" style="text-align: left">
         <h4 class="my-5">
@@ -109,5 +109,16 @@ img {
 a {
   color: #000000;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) { 
+  img {
+    margin-left: 0;
+    border-radius: 15px;
+    width: 100%;
+  }
+  li {
+    width: 60% !important;
+  }
 }
 </style>
