@@ -21,16 +21,16 @@
 
       <div class="text-end w-25 w-md-50">
         <div>
-          <a href="#" target="_blank"
+          <a href="https://www.facebook.com/turismorural.asaboeira" target="_blank"
             ><font-awesome-icon icon="fab fa-facebook" size="xl" class="me-2"
           /></a>
-          <a href="#" target="_blank"
+          <a href="https://www.instagram.com/asaboeira.turismorural/" target="_blank"
             ><font-awesome-icon icon="fab fa-instagram" size="xl" class="me-2"
           /></a>
         </div>
 
         <div class="my-3">
-          <a href="#" target="_blank"
+          <a href="https://www.livroreclamacoes.pt/inicio/reclamacao " target="_blank"
             ><img
               src="../assets/livro_de_reclamacoes.jpeg"
               alt="Livro de Reclamações"
