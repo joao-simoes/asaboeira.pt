@@ -37,7 +37,7 @@
             class="mt-4"
             src="../assets/img/6.jpg"
             alt="Contactos #2"
-            width="100%"
+            width="105%"
             height="auto"
           />
         </div>
