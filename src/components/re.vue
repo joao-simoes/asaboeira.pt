@@ -1,6 +1,6 @@
 <template>
   <div class="row py-5">
-    <div class="col-7">
+    <div class="col-12 col-md-7">
       <carousel :perPage="1">
         <slide v-for="i in imgsQt" :key="i">
           <img
@@ -11,7 +11,7 @@
         </slide>
       </carousel>
     </div>
-    <div class="col-5 text-start ps-5">
+    <div class="col-12 col-md-5 text-start ps-5">
       <h2 class="mt-5"><b>{{ name }}</b></h2>
       <h6 class="mt-4">{{ desc }}</h6>
       <h6 class="mt-5"><b>{{ priceOneNight }}</b> uma noite</h6>

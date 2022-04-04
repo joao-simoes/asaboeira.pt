@@ -19,7 +19,7 @@
         </p>
       </div>
 
-      <div class="text-end">
+      <div class="text-end w-25 w-md-50">
         <div>
           <a href="#" target="_blank"
             ><font-awesome-icon icon="fab fa-facebook" size="xl" class="me-2"
@@ -81,6 +81,12 @@ h5 {
 
 p {
   line-height: 10px;
+}
+
+@media only screen and (max-width: 767px) { 
+  p {
+  font-size: 14px !important;
+  }
 }
 
 .credits {

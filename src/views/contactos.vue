@@ -3,7 +3,7 @@
   <div class="contactos">
     <div class="container">
       <div class="row py-4">
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <div style="position: relative">
             <img
               src="../assets/img/7.jpg"
@@ -13,7 +13,7 @@
             />
           </div>
         </div>
-        <div class="col-6 my-5 py-3" style="text-align: left">
+        <div class="col-12 col-md-6 my-5 py-3 text-md-start text-center">
           <p>
             A Saboeira gostaria de vos pedir que deixem aqui as vossas opiniões,
             sugestões ou dúvidas, para que desta forma possamos oferecer-vos a
@@ -37,13 +37,13 @@
             class="mt-4"
             src="../assets/img/6.jpg"
             alt="Contactos #2"
-            width="105%"
+            width="100%"
             height="auto"
           />
         </div>
       </div>
       <div class="row py-4">
-        <form class="w-50 mx-auto" id="request_form">
+        <form class="w-50 mx-auto form_contact" id="request_form">
           <h3 class="mb-2">Formulário</h3>
           <div class="my-3">
             <input
@@ -93,5 +93,11 @@
 <style scoped>
 img {
   border-radius: 15px;
+}
+
+@media only screen and (max-width: 767px) { 
+  .form_contact {
+    width: 100% !important;
+  }
 }
 </style>
