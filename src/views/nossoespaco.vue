@@ -70,4 +70,28 @@ img {
   border-radius: 15px;
   background-color: #ffffff;
 }
+
+@media only screen and (max-width: 767px) { 
+  img {
+  width: 100%;
+}
+
+.infoBox {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  background: none;
+  margin-top: 5%;
+}
+
+.infoBox2 {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  background: none;
+  margin-top: 5%;
+}
+}
 </style>
