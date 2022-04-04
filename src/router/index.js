@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Index from "../views/index.vue";
 import NossoEspaco from "../views/nossoespaco.vue";
+import Alojamentos from "../views/rooms.vue";
 import Servicos from "../views/servicos.vue";
 import Contactos from "../views/contactos.vue";
 
@@ -16,6 +17,11 @@ const routes = [{
         path: "/nossoespaco",
         name: "ONossoEspaço",
         component: NossoEspaco,
+    },
+    {
+        path: "/alojamentos",
+        name: "Alojamentos",
+        component: Alojamentos,
     },
     {
         path: "/servicos",

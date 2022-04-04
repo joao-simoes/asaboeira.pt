@@ -103,7 +103,7 @@ img {
   text-align: center;
   border-radius: 15px;
   background-color: #ffffff;
-  box-shadow: -25px -20px 43px -16px rgba(255,255,255,0.18);
+  box-shadow: -2px -2px 10px -3px rgba(161, 162, 117, 0.5);
 }
 
 a {

@@ -15,7 +15,7 @@
           <router-link to="/nossoespaco">O nosso espaço</router-link>
         </li>
         <li class="p-2" id="alojamento">
-          <router-link to="/">Alojamentos</router-link>
+          <router-link to="/alojamentos">Alojamentos</router-link>
         </li>
         <li class="p-2" id="servicos">
           <router-link to="/servicos">Serviços</router-link>

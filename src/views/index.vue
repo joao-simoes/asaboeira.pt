@@ -16,6 +16,6 @@ export default {
 <style lang="scss" scoped>
   img {
     border-radius: 20px;
-    box-shadow: -25px -20px 43px -16px rgba(255,255,255,0.45);
+    box-shadow: -3px -3px 10px -3px rgba(161, 162, 117, 0.5);
   }
 </style>

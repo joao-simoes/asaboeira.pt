@@ -2,6 +2,9 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import VuePageTransition from "vue-page-transition";
+import VueCarousel from 'vue-carousel';
+
+
 
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -24,6 +27,7 @@ library.add(faLongArrowAltRight, faEnvelope, faPhoneAlt, faHome, faInstagram, fa
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.use(VuePageTransition);
+Vue.use(VueCarousel);
 
 Vue.config.productionTip = false;
 
