@@ -10,7 +10,7 @@ import VueCarousel from 'vue-carousel';
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 /* import specific icons */
-import { faAngleRight, faEnvelope, faPhoneAlt, faHome, faBars } from '@fortawesome/free-solid-svg-icons'
+import { faAngleRight, faEnvelope, faPhoneAlt, faHome, faBars, faUserFriends } from '@fortawesome/free-solid-svg-icons'
 
 /* import brands icons */
 import { faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons'
@@ -21,7 +21,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 
 /* add icons to the library */
-library.add(faAngleRight, faEnvelope, faPhoneAlt, faHome, faInstagram, faFacebook, faBars)
+library.add(faAngleRight, faEnvelope, faPhoneAlt, faHome, faInstagram, faFacebook, faBars, faUserFriends)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)
