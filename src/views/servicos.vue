@@ -4,7 +4,11 @@
     <div class="container">
       <div class="py-5" style="position: relative; text-align: left">
         <img src="../assets/img/4.jpg" alt="Serviços #1" />
-        <img class="imgOver d-none d-md-block" src="../assets/img/5.jpg" alt="Serviços #2" />
+        <img
+          class="imgOver d-none d-md-block"
+          src="../assets/img/5.jpg"
+          alt="Serviços #2"
+        />
       </div>
       <div class="pb-5" style="text-align: left">
         <h4 class="my-5">
@@ -21,7 +25,7 @@
           <li>
             <a href="https://gaviadventure.com/" target="_blank"
               >GaviAdventure
-              <font-awesome-icon icon="fa-solid fa-long-arrow-alt-right"
+              <font-awesome-icon class="ms-2" icon="fa-solid fa-angle-right"
             /></a>
           </li>
           <li
@@ -33,13 +37,13 @@
           <li>
             <a href="http://www.cm-gaviao.pt/pt/turismo/museus" target="_blank"
               >Núcleo Museológico das Mantas e Tapeçarias de Belver
-              <font-awesome-icon icon="fa-solid fa-long-arrow-alt-right"
+              <font-awesome-icon class="ms-2" icon="fa-solid fa-angle-right"
             /></a>
           </li>
           <li>
             <a href="http://www.cm-gaviao.pt/pt/turismo/museus" target="_blank"
               >Museu do Sabão
-              <font-awesome-icon icon="fa-solid fa-long-arrow-alt-right"
+              <font-awesome-icon class="ms-2" icon="fa-solid fa-angle-right"
             /></a>
           </li>
           <li
@@ -53,7 +57,7 @@
               href="http://www.cm-gaviao.pt/pt/turismo/gastronomia"
               target="_blank"
               >O Belver
-              <font-awesome-icon icon="fa-solid fa-long-arrow-alt-right" />
+              <font-awesome-icon class="ms-2" icon="fa-solid fa-angle-right" />
             </a>
           </li>
           <li>
@@ -61,7 +65,7 @@
               href="http://www.cm-gaviao.pt/pt/turismo/gastronomia"
               target="_blank"
               >O Castelo
-              <font-awesome-icon icon="fa-solid fa-long-arrow-alt-right"
+              <font-awesome-icon class="ms-2" icon="fa-solid fa-angle-right"
             /></a>
           </li>
           <li>
@@ -69,7 +73,7 @@
               href="http://www.cm-gaviao.pt/pt/turismo/gastronomia"
               target="_blank"
               >O Dente Leve
-              <font-awesome-icon icon="fa-solid fa-long-arrow-alt-right"
+              <font-awesome-icon class="ms-2" icon="fa-solid fa-angle-right"
             /></a>
           </li>
           <li>
@@ -77,7 +81,7 @@
               href="http://www.cm-gaviao.pt/pt/turismo/gastronomia"
               target="_blank"
               >O Alamal</a
-            ><font-awesome-icon icon="fa-solid fa-long-arrow-alt-right" />
+            ><font-awesome-icon class="ms-2" icon="fa-solid fa-angle-right" />
           </li>
         </ul>
         <p>
@@ -111,7 +115,7 @@ a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 767px) { 
+@media only screen and (max-width: 767px) {
   img {
     margin-left: 0;
     border-radius: 15px;

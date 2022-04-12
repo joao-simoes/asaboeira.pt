@@ -7,8 +7,11 @@
         :index="i"
         :name="room.name"
         :desc="room.desc"
-        :priceOneNight="room.priceOneNight"
-        :priceMoreNights="room.priceMoreNights"
+        :priceOneNight2ppl="room.priceOneNight2ppl ? room.priceOneNight2ppl : 'NA'" 
+        :priceOneNight3ppl="room.priceOneNight32ppl ? room.priceOneNight32ppl : 'NA'"
+        :priceMoreNights2ppl="room.priceMoreNights2ppl ? room.priceMoreNights2ppl : 'NA'"
+        :priceMoreNights3ppl="room.priceMoreNights3ppl ? room.priceMoreNights3ppl : 'NA'"
+        :priceMoreNights4ppl="room.priceMoreNights4ppl ? room.priceMoreNights4ppl : 'NA'"
         :nrPeople="room.nrPeople"
         :extras="room.extras"
         :imgsQt="room.imgsQt"
@@ -30,17 +33,19 @@ export default {
       rooms: [
         {
           name: "Quarto 1",
-          priceOneNight: "70€",
-          priceMoreNights: "65€",
+          priceOneNight2ppl: "75€",
+          priceMoreNights2ppl: "70€",
+          priceOneNight3ppl: "85€",
+          priceMoreNights3ppl: "80€",
           desc: "Quarto com uma cama de casal e uma cama de solteiro.",
-          nrPeople: "3",
+          nrPeople: "2 - 3",
           extras: ["WC", "Aquecimento", "TV"],
           imgsQt: 4
         },
         {
           name: "Quarto 2",
-          priceOneNight: "80€",
-          priceMoreNights: "75€",
+          priceOneNight2ppl: "85€",
+          priceMoreNights2ppl: "80€",
           desc: "Quarto com 1 cama de casal, com uma deslumbrante vista para o Rio Tejo.",
           nrPeople: "2",
           extras: ["WC", "Ar-condicionado", "TV", "Vista Rio Tejo"],
@@ -48,26 +53,28 @@ export default {
         },
         {
           name: "Quarto 3",
-          priceOneNight: "80€",
-          priceMoreNights: "75€",
+          priceOneNight2ppl: "80€",
+          priceMoreNights2ppl: "85€",
           desc: "Quarto com 1 cama de casal, com uma deslumbrante vista para o Rio Tejo .",
-          nrPeople: "3",
+          nrPeople: "2",
           extras: ["WC", "Ar-condicionado", "TV", "Vista Rio Tejo"],
           imgsQt: 2
         },
         {
           name: "Quarto 4",
-          priceOneNight: "70€",
-          priceMoreNights: "65€",
+          priceOneNight2ppl: "75€",
+          priceMoreNights2ppl: "70€",
+          priceOneNight3ppl: "80€",
+          priceMoreNights3ppl: "85€",
           desc: "Quarto com 1 cama de casal e uma cama de solteiro.",
-          nrPeople: "3",
+          nrPeople: "2 - 3",
           extras: ["WC", "Aquecimento", "TV"],
           imgsQt: 2
         },
         {
           name: "Quarto 5",
-          priceOneNight: "70€",
-          priceMoreNights: "65€",
+          priceOneNight2ppl: "75€",
+          priceMoreNights2ppl: "70€",
           desc: "Duas camas de solteiro.",
           nrPeople: "2",
           extras: ["WC", "Aquecimento", "TV"],
@@ -75,47 +82,55 @@ export default {
         },
         {
           name: "Quarto 6",
-          priceOneNight: "70€",
-          priceMoreNights: "65€",
-          desc: "Quarto com 1 cama de casal .",
+          priceOneNight2ppl: "75€",
+          priceMoreNights2ppl: "70€",
+          desc: "Quarto com uma cama de casal.",
           nrPeople: "2",
           extras: ["WC", "Ar-condicionado", "TV"],
           imgsQt: 1
         },
         {
           name: "Quarto 7",
-          priceOneNight: "70€",
-          priceMoreNights: "65€",
-          desc: "Quarto com 1 cama de casal.",
+          priceOneNight2ppl: "75€",
+          priceMoreNights2ppl: "70€",
+          desc: "Quarto com uma cama de casal.",
           nrPeople: "2",
           extras: ["WC", "Ar-condicionado", "TV"],
           imgsQt: 1
         },
         {
           name: "Quarto 8",
-          priceOneNight: "100€",
-          priceMoreNights: "120€",
-          desc: "Quarto com 1 cama de casal, 1 casa de solteiro e beliche. (Mínimo de 2 noites)",
-          nrPeople: "4",
+          priceMoreNights3ppl: "110€",
+          priceMoreNights4ppl: "130€",
+          desc: "Quarto com uma cama de casal, uma cama de solteiro e beliche. (Mínimo de 2 noites)",
+          nrPeople: "3 - 4",
           extras: ["WC Partilhado", "Sala e Cozinha comum", "Espaço independente da casa ", "TV"],
           imgsQt: 2
         },
         {
           name: "Quarto 9",
-          priceOneNight: "100€",
-          priceMoreNights: "120€",
-          desc: "Quarto com 1 cama de casal, 1 casa de solteiro e beliche. (Mínimo de 2 noites)",
-          nrPeople: "4",
+          priceMoreNights3ppl: "110€",
+          priceMoreNights4ppl: "130€",
+          desc: "Quarto com uma cama de casal, uma cama de solteiro e beliche. (Mínimo de 2 noites)",
+          nrPeople: "3 - 4",
           extras: ["WC Partilhado", "Espaço independente da casa ", "TV"],
           imgsQt: 1
         },
         {
           name: "Quarto 10",
-          priceOneNight: "100€",
-          priceMoreNights: "120€",
-          desc: "Quarto com 1 cama de casal, 1 casa de solteiro e beliche. (Mínimo de 2 noites)",
+          priceMoreNights3ppl: "110€",
+          priceMoreNights4ppl: "130€",
+          desc: "Quarto com uma cama de casal, uma cama de solteiro e beliche. (Mínimo de 2 noites)",
+          nrPeople: "3 - 4",
+          extras: ["WC Privado", "Sala e Cozinha privadas", "Espaço Independente da Casa", "TV"],
+          imgsQt: 1
+        },
+        {
+          name: "Casa Azul",
+          priceMoreNights3ppl: "120€",
+          desc: "Quarto com uma cama de casal, uma cama de solteiro e beliche. (Mínimo de 2 noites)",
           nrPeople: "3",
-          extras: ["WC Privado", "Sala e Cozinha privativa", "Espaço Independente da Casa", "TV"],
+          extras: ["WC Privado", "Sala e Cozinha privadas", "Espaço Independente da Casa", "TV"],
           imgsQt: 1
         }
       ],

@@ -14,8 +14,11 @@
     <div class="col-12 col-md-5 text-start ps-5">
       <h2 class="mt-5"><b>{{ name }}</b></h2>
       <h6 class="mt-4">{{ desc }}</h6>
-      <h6 class="mt-5"><b>{{ priceOneNight }}</b> uma noite</h6>
-      <h6 class="mt-2"><b>{{ priceMoreNights }}</b> p/ noite</h6>
+      <h6 v-if="priceOneNight2ppl != 'NA'"><b>{{ priceOneNight2ppl }}</b> uma noite</h6>
+      <h6 v-if="priceMoreNights2ppl != 'NA'"><b>{{ priceMoreNights2ppl }}</b> p/ noite</h6>
+      <h6 v-if="priceOneNight3ppl != 'NA'" ><b>{{ priceOneNight3ppl }}</b> uma noite</h6>
+      <h6 v-if="priceMoreNights3ppl != 'NA'"><b>{{ priceMoreNights3ppl }}</b> p/ noite</h6>
+      <h6 v-if="priceMoreNights4ppl != 'NA'"><b>{{ priceMoreNights4ppl }}</b> p/ noite</h6>
       <h6 class="mt-4">Nr. Pessoas: <b>{{ nrPeople }}</b></h6>
       <h6 class="mt-4"><b>Extras:</b></h6>
       <ul>
@@ -32,8 +35,11 @@ export default {
   props: {
     name: String,
     desc: String,
-    priceOneNight: String,
-    priceMoreNights: String,
+    priceOneNight2ppl: String,
+    priceOneNight3ppl: String,
+    priceMoreNights2ppl: String,
+    priceMoreNights3ppl: String,
+    priceMoreNights4ppl: String,
     nrPeople: String,
     index: Number,
     extras: Array,
