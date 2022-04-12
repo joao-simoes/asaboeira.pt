@@ -40,7 +40,7 @@ export default {
           desc: "Quarto com uma cama de casal e uma cama de solteiro.",
           nrPeople: "2 - 3",
           extras: ["WC", "Aquecimento", "TV"],
-          imgsQt: 4
+          imgsQt: 2
         },
         {
           name: "Quarto 2",
@@ -49,7 +49,7 @@ export default {
           desc: "Quarto com 1 cama de casal, com uma deslumbrante vista para o Rio Tejo.",
           nrPeople: "2",
           extras: ["WC", "Ar-condicionado", "TV", "Vista Rio Tejo"],
-          imgsQt: 3
+          imgsQt: 2
         },
         {
           name: "Quarto 3",
@@ -105,7 +105,7 @@ export default {
           desc: "Quarto com uma cama de casal, uma cama de solteiro e beliche. (Mínimo de 2 noites)",
           nrPeople: "3 - 4",
           extras: ["WC Partilhado", "Sala e Cozinha comum", "Espaço independente da casa ", "TV"],
-          imgsQt: 2
+          imgsQt: 3
         },
         {
           name: "Quarto 9",
@@ -114,7 +114,7 @@ export default {
           desc: "Quarto com uma cama de casal, uma cama de solteiro e beliche. (Mínimo de 2 noites)",
           nrPeople: "3 - 4",
           extras: ["WC Partilhado", "Espaço independente da casa ", "TV"],
-          imgsQt: 1
+          imgsQt: 3
         },
         {
           name: "Quarto 10",
@@ -123,7 +123,7 @@ export default {
           desc: "Quarto com uma cama de casal, uma cama de solteiro e beliche. (Mínimo de 2 noites)",
           nrPeople: "3 - 4",
           extras: ["WC Privado", "Sala e Cozinha privadas", "Espaço Independente da Casa", "TV"],
-          imgsQt: 1
+          imgsQt: 3
         },
         {
           name: "Casa Azul",
@@ -131,7 +131,7 @@ export default {
           desc: "Quarto com uma cama de casal, uma cama de solteiro e beliche. (Mínimo de 2 noites)",
           nrPeople: "3",
           extras: ["WC Privado", "Sala e Cozinha privadas", "Espaço Independente da Casa", "TV"],
-          imgsQt: 1
+          imgsQt: 4
         }
       ],
     };
