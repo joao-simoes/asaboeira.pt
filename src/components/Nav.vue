@@ -1,10 +1,11 @@
 <template>
   <div class="row m-4">
-    <div class="col-8 col-md-3">
+
+    <div class="col-12 col-md-3">
       <img
         src="../assets/logo.png"
         alt="A Saboeira"
-        width="100%"
+        width="80%"
         height="auto"
       />
     </div>
@@ -32,15 +33,13 @@
     <!--Mobile-->
     <div class="col-4 col-md-9 d-block d-md-none">
       <font-awesome-icon
-        style="z-index: 1000"
+        style="z-index: 1000; top: 3%; right: 2%;"
         @click="menu()"
         icon="fa-solid fa-bars"
         class="
           fa-lg
           d-block d-md-none
           position-fixed
-          top-25
-          end-0
           me-4
           text-end
         "
@@ -131,4 +130,5 @@ a {
   z-index: 900;
   transition: 0.2s ease-in-out;
 }
+
 </style>

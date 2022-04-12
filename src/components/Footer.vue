@@ -31,10 +31,9 @@
 
         <div class="my-3">
           <a href="https://www.livroreclamacoes.pt/inicio/reclamacao " target="_blank"
-            ><img
+            ><img class="lr"
               src="../assets/livro_de_reclamacoes.jpeg"
               alt="Livro de Reclamações"
-              width="40%"
           /></a>
         </div>
       </div>
@@ -83,9 +82,18 @@ p {
   line-height: 10px;
 }
 
+.lr {
+  width: 40%;
+}
+
+
 @media only screen and (max-width: 767px) { 
   p {
   font-size: 14px !important;
+  }
+
+  .lr {
+    width: 80% !important;
   }
 }
 
