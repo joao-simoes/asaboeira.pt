@@ -12,20 +12,45 @@
       </carousel>
     </div>
     <div class="col-12 col-md-5 text-start ps-5">
-      <h2 class="mt-5"><b>{{ name }}</b></h2>
+      <h2 class="mt-1">
+        <b>{{ name }}</b>
+      </h2>
       <h6 class="my-4">{{ desc }}</h6>
-      <h6 v-if="priceOneNight2ppl != 'NA'"><b>{{ priceOneNight2ppl }}</b> uma noite</h6>
-      <h6 v-if="priceMoreNights2ppl != 'NA'"><b>{{ priceMoreNights2ppl }}</b> p/ noite</h6>
-      <h6 v-if="priceOneNight3ppl != 'NA'" ><b>{{ priceOneNight3ppl }}</b> uma noite</h6>
-      <h6 v-if="priceMoreNights3ppl != 'NA'"><b>{{ priceMoreNights3ppl }}</b> p/ noite</h6>
-      <h6 v-if="priceMoreNights4ppl != 'NA'"><b>{{ priceMoreNights4ppl }}</b> p/ noite</h6>
-      <h6 class="mt-4"><font-awesome-icon class="me-3" icon="fas fa-user-friends" /><b>{{ nrPeople }}</b></h6>
+      <h5 v-if="priceMoreNights2ppl != 'NA' || priceOneNight2ppl != 'NA'">
+        Preços p/ 2 pessoas
+      </h5>
+      <h6 v-if="priceOneNight2ppl != 'NA'">
+        <b>{{ priceOneNight2ppl }}</b> uma noite
+      </h6>
+      <h6 v-if="priceMoreNights2ppl != 'NA'">
+        <b>{{ priceMoreNights2ppl }}</b> p/ noite
+      </h6>
+      <h5 v-if="priceOneNight3ppl != 'NA' || priceMoreNights3ppl != 'NA'">
+        Preços p/ 3 pessoas
+      </h5>
+      <h6 v-if="priceOneNight3ppl != 'NA'">
+        <b>{{ priceOneNight3ppl }}</b> uma noite
+      </h6>
+      <h6 v-if="priceMoreNights3ppl != 'NA'">
+        <b>{{ priceMoreNights3ppl }}</b> p/ noite
+      </h6>
+      <h5 v-if="priceMoreNights4ppl != 'NA'">Preços p/ 4 pessoas</h5>
+      <h6 v-if="priceMoreNights4ppl != 'NA'">
+        <b>{{ priceMoreNights4ppl }}</b> p/ noite
+      </h6>
+      <h6 class="mt-4">
+        <font-awesome-icon class="me-3" icon="fas fa-user-friends" /><b>{{
+          nrPeople
+        }}</b>
+      </h6>
       <h6 class="mt-4"><b>Extras:</b></h6>
       <ul>
         <li v-for="extra in extras" :key="extra">
-          {{extra}}
+          {{ extra }}
         </li>
       </ul>
+      <h6 v-if="conditions != 'NA'" class="mt-4"><b>Condições:</b></h6>
+      <p v-if="conditions != 'NA'">{{ conditions }}</p>
     </div>
   </div>
 </template>
@@ -44,6 +69,7 @@ export default {
     index: Number,
     extras: Array,
     imgsQt: Number,
+    conditions: String,
   },
 };
 </script>

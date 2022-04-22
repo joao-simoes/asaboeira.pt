@@ -27,6 +27,8 @@
           <a href="https://www.instagram.com/asaboeira.turismorural/" target="_blank"
             ><font-awesome-icon icon="fab fa-instagram" size="xl" class="me-2"
           /></a>
+          <a href="https://www.booking.com/hotel/pt/a-saboeira-turismo-rural.pt-pt.html" target="_blank"
+            ><img :src="require('../assets/bookingLogo.svg')" alt="Booking" width="25px"></a>
         </div>
 
         <div class="my-3">
