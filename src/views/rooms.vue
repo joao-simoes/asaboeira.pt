@@ -7,21 +7,11 @@
         :index="i"
         :name="room.name"
         :desc="room.desc"
-        :priceOneNight2ppl="
-          room.priceOneNight2ppl ? room.priceOneNight2ppl : 'NA'
-        "
-        :priceOneNight3ppl="
-          room.priceOneNight3ppl ? room.priceOneNight3ppl : 'NA'
-        "
-        :priceMoreNights2ppl="
-          room.priceMoreNights2ppl ? room.priceMoreNights2ppl : 'NA'
-        "
-        :priceMoreNights3ppl="
-          room.priceMoreNights3ppl ? room.priceMoreNights3ppl : 'NA'
-        "
-        :priceMoreNights4ppl="
-          room.priceMoreNights4ppl ? room.priceMoreNights4ppl : 'NA'
-        "
+        :priceOneNight2ppl="room.priceOneNight2ppl ? room.priceOneNight2ppl : 'NA'"
+        :priceOneNight3ppl="room.priceOneNight3ppl ? room.priceOneNight3ppl : 'NA'"
+        :priceMoreNights2ppl="room.priceMoreNights2ppl ? room.priceMoreNights2ppl : 'NA'"
+        :priceMoreNights3ppl="room.priceMoreNights3ppl ? room.priceMoreNights3ppl : 'NA'"
+        :priceMoreNights4ppl="room.priceMoreNights4ppl ? room.priceMoreNights4ppl : 'NA'"
         :nrPeople="room.nrPeople"
         :extras="room.extras"
         :imgsQt="room.imgsQt"
@@ -30,10 +20,6 @@
     </div>
   </div>
 </template>
-
-
-
-
 
 <script>
 import Room from "../components/re.vue";
@@ -64,9 +50,10 @@ export default {
         },
         {
           name: "Quarto 3",
-          priceOneNight2ppl: "80€",
-          priceMoreNights2ppl: "85€",
-          desc: "Quarto com 1 cama de casal, com uma deslumbrante vista para o Rio Tejo .",
+          priceOneNight2ppl: "85€",
+          priceMoreNights2ppl: "80€",
+          desc:
+            "Quarto com 1 cama de casal, com uma deslumbrante vista para o Rio Tejo .",
           nrPeople: "2",
           extras: ["WC", "Ar-condicionado", "TV", "Vista Rio Tejo"],
           imgsQt: 2,
@@ -75,8 +62,8 @@ export default {
           name: "Quarto 4",
           priceOneNight2ppl: "75€",
           priceMoreNights2ppl: "70€",
-          priceOneNight3ppl: "80€",
-          priceMoreNights3ppl: "85€",
+          priceOneNight3ppl: "85€",
+          priceMoreNights3ppl: "80€",
           desc: "Quarto com 1 cama de casal e uma cama de solteiro.",
           nrPeople: "2 - 3",
           extras: ["WC", "Aquecimento", "TV"],
@@ -138,7 +125,7 @@ export default {
           name: "Quarto 10",
           priceMoreNights3ppl: "110€",
           priceMoreNights4ppl: "130€",
-          desc: "Quarto com uma cama de casal, uma cama de solteiro e beliche. ",
+          desc: "Quarto com uma cama de casal e um beliche.",
           nrPeople: "3 - 4",
           extras: [
             "WC Privado",
@@ -152,7 +139,8 @@ export default {
         {
           name: "Casa Azul",
           priceMoreNights3ppl: "120€",
-          desc: "Quarto com uma cama de casal, uma cama de solteiro e beliche. ",
+          desc:
+            "Um espaço independente da casa, sendo uma ótima opção para umas férias em família ou com um grupo de amigos. Casa com uma cama de casal, uma cama de solteiro.",
           nrPeople: "3",
           extras: [
             "WC Privado",
@@ -172,10 +160,6 @@ export default {
   },
 };
 </script>
-
-
-
-
 
 <style scoped>
 img {
