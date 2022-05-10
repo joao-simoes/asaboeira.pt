@@ -36,7 +36,7 @@ export default {
           priceMoreNights3ppl: "80€",
           desc: "Quarto com uma cama de casal e uma cama de solteiro.",
           nrPeople: "2 - 3",
-          extras: ["WC", "Aquecimento", "TV"],
+          extras: ["WC", "Aquecimento"],
           imgsQt: 2,
         },
         {
@@ -45,7 +45,7 @@ export default {
           priceMoreNights2ppl: "80€",
           desc: "Quarto com 1 cama de casal, com uma deslumbrante vista para o Rio Tejo.",
           nrPeople: "2",
-          extras: ["WC", "Ar-condicionado", "TV", "Vista Rio Tejo"],
+          extras: ["WC", "Ar-condicionado", "Vista Rio Tejo"],
           imgsQt: 2,
         },
         {
@@ -55,7 +55,7 @@ export default {
           desc:
             "Quarto com 1 cama de casal, com uma deslumbrante vista para o Rio Tejo .",
           nrPeople: "2",
-          extras: ["WC", "Ar-condicionado", "TV", "Vista Rio Tejo"],
+          extras: ["WC", "Ar-condicionado", "Vista Rio Tejo"],
           imgsQt: 2,
         },
         {
@@ -66,7 +66,7 @@ export default {
           priceMoreNights3ppl: "80€",
           desc: "Quarto com 1 cama de casal e uma cama de solteiro.",
           nrPeople: "2 - 3",
-          extras: ["WC", "Aquecimento", "TV"],
+          extras: ["WC", "Aquecimento"],
           imgsQt: 2,
         },
         {
@@ -75,7 +75,7 @@ export default {
           priceMoreNights2ppl: "70€",
           desc: "Duas camas de solteiro.",
           nrPeople: "2",
-          extras: ["WC", "Aquecimento", "TV"],
+          extras: ["WC", "Aquecimento"],
           imgsQt: 1,
         },
         {
@@ -84,7 +84,7 @@ export default {
           priceMoreNights2ppl: "70€",
           desc: "Quarto com uma cama de casal.",
           nrPeople: "2",
-          extras: ["WC", "Ar-condicionado", "TV"],
+          extras: ["WC", "Ar-condicionado"],
           imgsQt: 1,
         },
         {
@@ -93,7 +93,7 @@ export default {
           priceMoreNights2ppl: "70€",
           desc: "Quarto com uma cama de casal.",
           nrPeople: "2",
-          extras: ["WC", "Ar-condicionado", "TV"],
+          extras: ["WC", "Ar-condicionado"],
           imgsQt: 1,
         },
         {
@@ -105,8 +105,7 @@ export default {
           extras: [
             "WC Partilhado",
             "Sala e Cozinha comum",
-            "Espaço independente da casa ",
-            "TV",
+            "Espaço independente da casa "
           ],
           imgsQt: 3,
           conditions: "Mínimo de 2 noites",
@@ -117,7 +116,7 @@ export default {
           priceMoreNights4ppl: "130€",
           desc: "Quarto com uma cama de casal, uma cama de solteiro e beliche. ",
           nrPeople: "3 - 4",
-          extras: ["WC Partilhado", "Espaço independente da casa ", "TV"],
+          extras: ["WC Partilhado", "Espaço independente da casa "],
           imgsQt: 3,
           conditions: "Mínimo de 2 noites",
         },
@@ -131,7 +130,6 @@ export default {
             "WC Privado",
             "Sala e Cozinha privadas",
             "Espaço Independente da Casa",
-            "TV",
           ],
           imgsQt: 3,
           conditions: "Mínimo de 2 noites",
@@ -146,7 +144,6 @@ export default {
             "WC Privado",
             "Sala e Cozinha privadas",
             "Espaço Independente da Casa",
-            "TV",
           ],
           imgsQt: 4,
           conditions: "Mínimo de 2 noites",
