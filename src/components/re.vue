@@ -17,26 +17,26 @@
       </h2>
       <h6 class="my-4">{{ desc }}</h6>
       <h5 v-if="priceMoreNights2ppl != 'NA' || priceOneNight2ppl != 'NA'">
-        Preços p/ 2 pessoas
+        2 pessoas:
       </h5>
       <h6 v-if="priceOneNight2ppl != 'NA'">
-        <b>{{ priceOneNight2ppl }}</b> uma noite
+        <b>{{ priceOneNight2ppl }}</b> p/ noite -> reservas de apenas uma noite
       </h6>
       <h6 v-if="priceMoreNights2ppl != 'NA'">
-        <b>{{ priceMoreNights2ppl }}</b> p/ noite
+        <b>{{ priceMoreNights2ppl }}</b>  p/ noite -> reservas superiores a 1 noite
       </h6>
       <h5 v-if="priceOneNight3ppl != 'NA' || priceMoreNights3ppl != 'NA'">
-        Preços p/ 3 pessoas
+        3 pessoas:
       </h5>
       <h6 v-if="priceOneNight3ppl != 'NA'">
-        <b>{{ priceOneNight3ppl }}</b> uma noite
+        <b>{{ priceOneNight3ppl }}</b> p/ noite -> reservas de apenas uma noite
       </h6>
       <h6 v-if="priceMoreNights3ppl != 'NA'">
-        <b>{{ priceMoreNights3ppl }}</b> p/ noite
+        <b>{{ priceMoreNights3ppl }}</b>  p/ noite -> reservas superiores a 1 noite
       </h6>
-      <h5 v-if="priceMoreNights4ppl != 'NA'">Preços p/ 4 pessoas</h5>
+      <h5 v-if="priceMoreNights4ppl != 'NA'">4 pessoas:</h5>
       <h6 v-if="priceMoreNights4ppl != 'NA'">
-        <b>{{ priceMoreNights4ppl }}</b> p/ noite
+        <b>{{ priceMoreNights4ppl }}</b>  p/ noite -> reservas superiores a 1 noite
       </h6>
       <h6 class="mt-4">
         <font-awesome-icon class="me-3" icon="fas fa-user-friends" /><b>{{
